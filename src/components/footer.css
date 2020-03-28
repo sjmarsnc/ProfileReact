@@ -1,0 +1,10 @@
+footer {
+  border-top: 8px solid midnightblue;
+  background-color: ghostwhite;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: small;
+}
