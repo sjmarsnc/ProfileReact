@@ -1,28 +1,25 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import Portfolio from "./pages/Portfolio";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import NotFound404 from "./components/NotFound404";
+import { Col, Row, Container } from "./components/Grid";
 import "./App.css";
-import Card from "./components/Card";
-import HeaderBar from "./components/HeaderBar";
-import Footer from "./components/Footer";
-import LeftColumn from "./components/LeftColumn";
-import Gallery from "./components/Gallery";
 
 function App() {
   return (
-    <>
-      <HeaderBar />
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-12 col-md-3 p-0 ">
-            <LeftColumn />
-          </div>
-          <div className="col-12 col-md-9">
-            <Gallery />
-          </div>
-        </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route exact path={["/", "/Portfolio"]} component={Portfolio} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+          <Route component={NotFound404} />
+        </Switch>
       </div>
-      <Footer />
-    </>
+    </Router>
   );
 }
 

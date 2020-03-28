@@ -1,17 +1,21 @@
-import React, { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
-import { Col, Row, Container } from "../components/Grid";
-import Jumbotron from "../components/Jumbotron";
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HeaderBar from "../components/HeaderBar";
 import Footer from "../components/Footer";
+import LeftColumn from "../components/LeftColumn";
+import { Col, Row, Container } from "../components/Grid";
+import "../components/common.css";
 
 function About() {
   return (
     <>
       <HeaderBar />
-      <div className="container">
+      <Container fluid="1">
         <Row>
-          <Col>
+          <Col size="12 md-3" otherClass="p-0">
+            <LeftColumn />
+          </Col>
+          <Col size="12 md-9">
             <div className="bio">
               <p>I'm Susan Marshall and I'm a full-stack web developer.</p>
               <p>
@@ -48,8 +52,10 @@ function About() {
             </div>
           </Col>
         </Row>
-      </div>
+      </Container>
       <Footer />
     </>
   );
 }
+
+export default About;

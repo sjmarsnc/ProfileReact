@@ -3,7 +3,7 @@ import Skill from "./Skill";
 import "./card.css";
 
 const Card = props => {
-  console.log("PROPS in Card: ", props);
+  // console.log("PROPS in Card: ", props);
   return (
     <div className="card m-3" data-toggle="tooltip" title={props.tooltip}>
       <a href={props.link}>
