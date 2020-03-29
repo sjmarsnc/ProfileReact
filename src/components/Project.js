@@ -2,7 +2,7 @@ import React from "react";
 import Skill from "./Skill";
 import "./card.css";
 
-function Card(props) {
+function Project(props) {
   // console.log("PROPS in Card: ", props);
   return (
     <div
@@ -28,4 +28,4 @@ function Card(props) {
   );
 }
 
-export default Card;
+export default Project;

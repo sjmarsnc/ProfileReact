@@ -28,13 +28,6 @@
     "tooltip": "Group project helping you find outdoor activities"
   },
   {
-    "name": "Employee Manager",
-    "img": "/assets/employee280x330.png",
-    "link": "https://github.com/sjmarsnc/EmployeeTracker",
-    "skills": ["NodeJS", "mySQL"],
-    "tooltip": "Line mode application to add, update, and delete departments, roles, employees"
-  },
-  {
     "name": "Movie Browser",
     "img": "/assets/movie280x330.png",
     "link": "https://whispering-dawn-54949.herokuapp.com/",

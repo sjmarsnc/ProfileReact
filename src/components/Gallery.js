@@ -1,12 +1,12 @@
 import React from "react";
-import Card from "./Card";
+import Project from "./Project";
 // import projects from "../projects.json";
 
 const Gallery = ({ projects }) => {
   return (
     <div className="row">
       {projects.map((project, index) => {
-        return <Card index={index} {...project} />;
+        return <Project index={index} {...project} />;
       })}
     </div>
   );
