@@ -2,12 +2,21 @@ import React from "react";
 import Skill from "./Skill";
 import "./card.css";
 
-const Card = props => {
+function Card(props) {
   // console.log("PROPS in Card: ", props);
   return (
-    <div className="card m-3" data-toggle="tooltip" title={props.tooltip}>
+    <div
+      className="card m-3"
+      data-toggle="tooltip"
+      title={props.tooltip}
+      key={props.index}
+    >
       <a href={props.link}>
-        <img className="cardimg-top projimage" src={props.img} alt="picture" />
+        <img
+          className="card-img-top projimage"
+          src={props.img}
+          alt="related to app"
+        />
         <div className="card-title projLabelBox">{props.name}</div>
         <div className="justify-content-around">
           {props.skills.map(skill => (
@@ -17,6 +26,6 @@ const Card = props => {
       </a>
     </div>
   );
-};
+}
 
 export default Card;

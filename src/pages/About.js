@@ -1,5 +1,4 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import HeaderBar from "../components/HeaderBar";
 import Footer from "../components/Footer";
 import LeftColumn from "../components/LeftColumn";
@@ -15,7 +14,7 @@ function About() {
           <Col size="12 md-3" otherClass="p-0">
             <LeftColumn />
           </Col>
-          <Col size="12 md-9">
+          <Col size="12 md-8" otherClass="ml-4 mt-5 pt-5">
             <div className="bio">
               <p>I'm Susan Marshall and I'm a full-stack web developer.</p>
               <p>
@@ -32,14 +31,14 @@ function About() {
                 spending a fortune and being tied into a long-term support
                 contract. My goal is to create a site for you that provides key
                 information in an easy-to-navigate format that's accessible to
-                your customers at any time. More than half of today's web access
-                is from mobile devices so your website must be easy to use from
-                laptops, tablets, and smartphones!
+                your customers at any time from any device. More than half of
+                today's web access is from mobile devices so your website must
+                be easy to use from laptops, tablets, and smartphones!
               </p>
               <p>
                 Once your site is created, you should be able to update your
-                content without needing "expert help", I will provide training
-                so that you can manage the most common types of updates
+                content without paying for "expert help", I will provide
+                training so that you can manage the most common types of updates
                 yourself.
               </p>
               <p>

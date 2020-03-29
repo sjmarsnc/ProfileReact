@@ -15,18 +15,24 @@ export const Row = ({ fluid, children }) => {
 // This Col component lets us size bootstrap columns with less syntax
 // e.g. <Col size="md-12"> instead of <div className="col-md-12">
 export const Col = ({ size, otherClass, children }) => {
-  return (
-    <div
-      className={
-        size
-          .split(" ")
-          .map(size => "col-" + size)
-          .join(" ") +
-        " " +
-        otherClass
-      }
-    >
-      {children}
-    </div>
-  );
+  let classValue = size
+    .split(" ")
+    .map(size => "col-" + size)
+    .join(" ");
+  if (otherClass) classValue = classValue + " " + otherClass;
+
+  return <div className={classValue}>{children}</div>;
 };
+
+// export const Col = ({ size, children }) => {
+//   return (
+//     <div
+//       className={size
+//         .split(" ")
+//         .map(size => "col-" + size)
+//         .join(" ")}
+//     >
+//       {children}
+//     </div>
+//   );
+// };

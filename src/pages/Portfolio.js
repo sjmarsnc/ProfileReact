@@ -1,12 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Card from "../components/Card";
 import HeaderBar from "../components/HeaderBar";
 import Footer from "../components/Footer";
 import LeftColumn from "../components/LeftColumn";
 import Gallery from "../components/Gallery";
 import { Col, Row, Container } from "../components/Grid";
 import "../components/common.css";
+import projects from "../projects.json";
 
 function Portfolio() {
   return (
@@ -18,7 +17,7 @@ function Portfolio() {
             <LeftColumn />
           </Col>
           <Col size="12 md-9">
-            <Gallery />
+            <Gallery projects={projects} />
           </Col>
         </Row>
       </Container>

@@ -1,10 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Card from "../components/Card";
 import HeaderBar from "../components/HeaderBar";
 import Footer from "../components/Footer";
 import LeftColumn from "../components/LeftColumn";
 import { Col, Row, Container } from "../components/Grid";
+import ContactForm from "../components/ContactForm";
 import "../components/common.css";
 
 function Contact() {
@@ -17,7 +16,7 @@ function Contact() {
             <LeftColumn />
           </Col>
           <Col size="12 md-9">
-            <h1> Contact stuff goes here</h1>
+            <ContactForm />
           </Col>
         </Row>
       </Container>
