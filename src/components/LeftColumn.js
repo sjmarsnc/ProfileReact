@@ -19,6 +19,8 @@ const LeftColumn = () => {
         I create clean and responsive websites to get the information you want
         your customers to know into their hands!
       </p>
+      <p>Located in Raleigh, NC</p>
+      <p>(919) 555-1212</p>
       <a href="https://github.com/sjmarsnc">
         <i className="fa fa-github" />
       </a>
