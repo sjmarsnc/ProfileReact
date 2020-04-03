@@ -6,7 +6,7 @@ const Gallery = ({ projects }) => {
   return (
     <div className="row">
       {projects.map((project, index) => {
-        return <Project index={index} {...project} />;
+        return <Project key={index} {...project} />;
       })}
     </div>
   );

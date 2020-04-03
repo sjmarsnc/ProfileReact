@@ -19,8 +19,8 @@ function Project(props) {
         />
         <div className="card-title projLabelBox">{props.name}</div>
         <div className="justify-content-around">
-          {props.skills.map(skill => (
-            <Skill skill={skill} />
+          {props.skills.map((skill, index) => (
+            <Skill key={index} skill={skill} />
           ))}
         </div>
       </a>
