@@ -9,14 +9,12 @@ import NotFound404 from "./components/NotFound404";
 function App() {
   return (
     <Router basename={"/ProfileReact"}>
-      <div>
-        <Switch>
-          <Route exact path={["/", "/Portfolio"]} component={Portfolio} />
-          <Route exact path="/about" component={About} />
-          <Route exact path="/contact" component={Contact} />
-          <Route component={NotFound404} />
-        </Switch>
-      </div>
+      <Switch>
+        <Route exact path={["/", "/Portfolio"]} component={Portfolio} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/contact" component={Contact} />
+        <Route component={NotFound404} />
+      </Switch>
     </Router>
   );
 }

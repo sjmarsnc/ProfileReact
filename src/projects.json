@@ -4,7 +4,7 @@
     "img": "/assets/lightning280x330.png",
     "link": "https://sjmarsnc.github.io/WeatherDashboard",
     "skills": ["External APIs", "Bootstrap", "Jquery", "JSON"],
-    "tooltip": "See current weather and forecast"
+    "tooltip": "See current weather and 5-day forecast"
   },
   {
     "name": "Password Generator",
