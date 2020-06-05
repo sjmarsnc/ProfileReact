@@ -19,7 +19,7 @@ function About() {
               <p>I'm Susan Marshall and I'm a full-stack web developer.</p>
               <p>
                 I graduated from Boston University with a Bachelor's Degree in
-                Mathematics and computer Science, and spent nearly 30 years
+                Mathematics and Computer Science.  I spent nearly 30 years
                 programming and providing technical support for a large
                 privately-held software company. I enjoyed making web pages to
                 share knowledge across the company's international offices and
@@ -42,10 +42,16 @@ function About() {
                 yourself.
               </p>
               <p>
+                My web skills include HTML5, JavaScript, CSS, Bootstrap, React,
+                JQuery, SQL, MongoDb, and NodeJS.  In addition I am a program leader
+                for Kepner-Tregoe problem-solving methodology and have very strong
+                skills in writing and public speaking.
+              </p>
+              <p>
                 When I'm not communing with my computer, I hang out with my cats
                 (at their whim, not mine), knit (preferably without the cats'
-                "help"), hike, and bike on the many gorgeous Raleigh greenway
-                trails. I also like to travel - so far I've visited 65 countries
+                "help"),  and hike or bike on the many gorgeous Raleigh greenway
+                trails and parks. I also like to travel - so far I've visited 65 countries
                 and still counting!
               </p>
             </div>
