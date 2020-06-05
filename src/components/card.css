@@ -17,3 +17,14 @@
   width: 100%;
   text-align: center;
 }
+
+.ghrepo {
+  position: relative; 
+  padding: 0px; 
+  text-align: right;
+  bottom: 30px;
+  right: 5px;  
+  width: 100%;
+  color: white;
+  height: 0px;  
+}
