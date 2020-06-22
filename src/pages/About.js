@@ -42,8 +42,10 @@ function About() {
                 yourself.
               </p>
               <p>
-                My web skills include HTML5, JavaScript, CSS, Bootstrap, React,
-                JQuery, SQL, MongoDb, and NodeJS.  In addition I am a program leader
+                My web skills include <strong>HTML5</strong>, <strong>JavaScript</strong>, <strong>CSS</strong>,
+                <strong>Bootstrap</strong>, <strong>React</strong>,
+                <strong>JQuery</strong>, <strong>SQL</strong>, <strong>MongoDb</strong>,
+                and <strong>NodeJS</strong>.  In addition I am a program leader
                 for Kepner-Tregoe problem-solving methodology and have very strong
                 skills in writing and public speaking.
               </p>
