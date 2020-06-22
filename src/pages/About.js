@@ -37,7 +37,7 @@ function About() {
               </p>
               <p>
                 Once your site is created, you should be able to update your
-                content without paying for "expert help", I will provide
+                content without paying for "expert help", I provide
                 training so that you can manage the most common types of updates
                 yourself.
               </p>
