@@ -6,6 +6,9 @@ const LeftColumn = () => {
       backgroundColor: "ghostwhite",
       color: "midnightblue",
       height: "100vh"
+    },
+    smaller: {
+      fontSize: "smaller"
     }
   };
   return (
@@ -31,6 +34,7 @@ const LeftColumn = () => {
       <span>&nbsp; &nbsp; </span>
       <a href="mailto:sjmarsnc@gmail.com">
         <i className="fa fa-paper-plane " />
+        <span style={style.smaller}>&nbsp;sjmarsnc@gmail.com</span>
       </a>
       <span> &nbsp; &nbsp; </span>
     </div>
